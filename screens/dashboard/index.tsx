@@ -9,7 +9,7 @@ import SettingsScreen from './subpages/settings';
 const DashboardScreen = () => {
     const [index, setIndex] = React.useState(0);
     const [routes] = React.useState([
-        { key: 'broadcast', title: 'Broadcast', focusedIcon: 'broadcast' },
+        { key: 'broadcast', title: 'Topups', focusedIcon: 'broadcast' },
         { key: 'help', title: 'Help', focusedIcon: 'help-circle', unfocusedIcon: 'help-circle-outline' },
         { key: 'payments', title: 'My Payments', focusedIcon: 'clipboard-list', unfocusedIcon: 'clipboard-list-outline' },
         { key: 'settings', title: 'Settings', focusedIcon: 'account-cog', unfocusedIcon: 'account-cog-outline' },
